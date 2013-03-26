@@ -1,0 +1,19 @@
+{
+    "name": "Nike Bot",
+    "version": "1.0",
+    "manifest_version": 2,
+    "browser_action": {
+        "default_popup": "specs.html"
+    },
+    "background": {
+        "scripts": ["bot.js"],
+        "persistent": true
+    },
+    "permissions": [
+        "tabs",
+        "alarms",
+        "https://twitter.com/nikestore",
+        "http://store.nike.com/*",
+        "https://secure-niketown.nike.com/*"
+    ]
+}
